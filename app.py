@@ -85,8 +85,8 @@ def main():
     thal =  st.number_input('Insert thal',0,7)
     
     if st.button("Predict"):
-      result=predict(age,cp,trestbps,chol,fbs,Gender,Geography,restecg,thalach,exang,oldpeak,slope,ca,thal))
-      st.success('Model has predicted , Heart Disease Category:',result)
+      result=predict(age,cp,trestbps,chol,fbs,Gender,Geography,restecg,thalach,exang,oldpeak,slope,ca,thal)
+      st.success('Model has predicted , Heart Disease Category {}'.format(result))
       
     if st.button("About"):
       st.subheader("Developed by Rahul Chhablani")
