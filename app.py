@@ -55,12 +55,12 @@ def predict(age,cp,trestbps,chol,fbs,Gender,Geography,restecg,thalach,exang,oldp
 def main():
     
     html_temp = """
-   <div class="" style="background-color:blue;" >
+   <div class="" style="background-color:yellow;" >
    <div class="clearfix">           
    <div class="col-md-12">
-   <center><p style="font-size:40px;color:yellow;margin-top:10px;">Poornima Institute of Engineering & Technology</p></center> 
-   <center><p style="font-size:30px;color:yellow;margin-top:10px;">Department of Computer Engineering</p></center> 
-   <center><p style="font-size:25px;color:yellow;margin-top:10px;"ML Lab Experiment</p></center> 
+   <center><p style="font-size:40px;color:white;margin-top:10px;">Poornima Institute of Engineering & Technology</p></center> 
+   <center><p style="font-size:30px;color:white;margin-top:10px;">Department of Computer Engineering</p></center> 
+   <center><p style="font-size:25px;color:white;margin-top:10px;"ML Lab Experiment</p></center> 
    </div>
    </div>
    </div>
